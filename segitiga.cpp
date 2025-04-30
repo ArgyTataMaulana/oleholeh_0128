@@ -16,7 +16,7 @@ class segitiga{
 
     int fungsiHitungKeliling(int a, int b, int c){
         return a + b + c;
-    }
+    }  
 
     // membuat kelas public
     public:
@@ -85,15 +85,6 @@ class segitiga{
         }while(pilihan != 3);
     }
 };
-
-void outputLuas(){
-
-}
-
-void outputKeliling(){
-
-}
-
 int main(){
     segitiga s;
     s.input();
